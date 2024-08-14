@@ -1,5 +1,8 @@
 #include <Arduino.h>
 
+// backtracking
+// recursion
+
 void printField();
 bool validRow(int row);
 bool validRows();
@@ -31,7 +34,7 @@ void setup() {
   solve(0, 0);
   float solvingTime = (millis() - startingTime) / 1000;
   /*if(validField()){
-    printField();
+    printField();1
   }*/
   printField();
   Serial.print("Sudoku solved in ");
