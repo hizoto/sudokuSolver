@@ -4,13 +4,6 @@
 // recursion
 
 void printField();
-bool validRow(int row);
-bool validRows();
-bool validCol(int col);
-bool validCols();
-bool validBox(int startRow, int startCol);
-bool validBoxes();
-bool validField();
 bool validPlacement(int row, int col, int num);
 bool solve(int i, int j);
 
